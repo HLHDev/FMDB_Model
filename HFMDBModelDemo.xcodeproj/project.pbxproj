@@ -15,6 +15,10 @@
 		489C5637224DC1A100AA1318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C5636224DC1A100AA1318 /* main.m */; };
 		489C5641224DC1A100AA1318 /* HFMDBModelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C5640224DC1A100AA1318 /* HFMDBModelDemoTests.m */; };
 		489C564C224DC1A100AA1318 /* HFMDBModelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C564B224DC1A100AA1318 /* HFMDBModelDemoUITests.m */; };
+		489C565B224DC3BE00AA1318 /* HPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C565A224DC3BE00AA1318 /* HPersonModel.m */; };
+		489C565E224DCAF500AA1318 /* HFMDBHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C565D224DCAF500AA1318 /* HFMDBHelp.m */; };
+		489C5661224DE74000AA1318 /* HFMDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 489C5660224DE74000AA1318 /* HFMDBModel.m */; };
+		A54E602EDFB494E6D12D7FBE /* Pods_HFMDBModelDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2402678759267FC8F54FCD /* Pods_HFMDBModelDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		489C5647224DC1A100AA1318 /* HFMDBModelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFMDBModelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489C564B224DC1A100AA1318 /* HFMDBModelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFMDBModelDemoUITests.m; sourceTree = "<group>"; };
 		489C564D224DC1A100AA1318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489C5659224DC3BE00AA1318 /* HPersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPersonModel.h; sourceTree = "<group>"; };
+		489C565A224DC3BE00AA1318 /* HPersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPersonModel.m; sourceTree = "<group>"; };
+		489C565C224DCAF500AA1318 /* HFMDBHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFMDBHelp.h; sourceTree = "<group>"; };
+		489C565D224DCAF500AA1318 /* HFMDBHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFMDBHelp.m; sourceTree = "<group>"; };
+		489C565F224DE74000AA1318 /* HFMDBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFMDBModel.h; sourceTree = "<group>"; };
+		489C5660224DE74000AA1318 /* HFMDBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFMDBModel.m; sourceTree = "<group>"; };
+		4D2402678759267FC8F54FCD /* Pods_HFMDBModelDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFMDBModelDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB6E908AF6F018A0893AAD2 /* Pods-HFMDBModelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFMDBModelDemo.debug.xcconfig"; path = "Target Support Files/Pods-HFMDBModelDemo/Pods-HFMDBModelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F189F18E4A2B6B8600488219 /* Pods-HFMDBModelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFMDBModelDemo.release.xcconfig"; path = "Target Support Files/Pods-HFMDBModelDemo/Pods-HFMDBModelDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54E602EDFB494E6D12D7FBE /* Pods_HFMDBModelDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				489C563F224DC1A100AA1318 /* HFMDBModelDemoTests */,
 				489C564A224DC1A100AA1318 /* HFMDBModelDemoUITests */,
 				489C5625224DC19F00AA1318 /* Products */,
+				D368D97C01D7D61C1E3B2E9E /* Pods */,
+				595E9F60ADA1DF782F7AB84B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +121,12 @@
 				489C5628224DC19F00AA1318 /* AppDelegate.m */,
 				489C562A224DC19F00AA1318 /* ViewController.h */,
 				489C562B224DC19F00AA1318 /* ViewController.m */,
+				489C5659224DC3BE00AA1318 /* HPersonModel.h */,
+				489C565A224DC3BE00AA1318 /* HPersonModel.m */,
+				489C565C224DCAF500AA1318 /* HFMDBHelp.h */,
+				489C565D224DCAF500AA1318 /* HFMDBHelp.m */,
+				489C565F224DE74000AA1318 /* HFMDBModel.h */,
+				489C5660224DE74000AA1318 /* HFMDBModel.m */,
 				489C562D224DC19F00AA1318 /* Main.storyboard */,
 				489C5630224DC1A100AA1318 /* Assets.xcassets */,
 				489C5632224DC1A100AA1318 /* LaunchScreen.storyboard */,
@@ -132,6 +154,23 @@
 			path = HFMDBModelDemoUITests;
 			sourceTree = "<group>";
 		};
+		595E9F60ADA1DF782F7AB84B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D2402678759267FC8F54FCD /* Pods_HFMDBModelDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D368D97C01D7D61C1E3B2E9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AB6E908AF6F018A0893AAD2 /* Pods-HFMDBModelDemo.debug.xcconfig */,
+				F189F18E4A2B6B8600488219 /* Pods-HFMDBModelDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 489C5650224DC1A100AA1318 /* Build configuration list for PBXNativeTarget "HFMDBModelDemo" */;
 			buildPhases = (
+				AC87F3163A059374F41D1182 /* [CP] Check Pods Manifest.lock */,
 				489C5620224DC19F00AA1318 /* Sources */,
 				489C5621224DC19F00AA1318 /* Frameworks */,
 				489C5622224DC19F00AA1318 /* Resources */,
+				C4FABD316FF140B596C7E162 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,13 +298,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC87F3163A059374F41D1182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFMDBModelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FABD316FF140B596C7E162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HFMDBModelDemo/Pods-HFMDBModelDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HFMDBModelDemo/Pods-HFMDBModelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		489C5620224DC19F00AA1318 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				489C562C224DC19F00AA1318 /* ViewController.m in Sources */,
+				489C5661224DE74000AA1318 /* HFMDBModel.m in Sources */,
+				489C565B224DC3BE00AA1318 /* HPersonModel.m in Sources */,
 				489C5637224DC1A100AA1318 /* main.m in Sources */,
+				489C565E224DCAF500AA1318 /* HFMDBHelp.m in Sources */,
 				489C5629224DC19F00AA1318 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +524,7 @@
 		};
 		489C5651224DC1A100AA1318 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB6E908AF6F018A0893AAD2 /* Pods-HFMDBModelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +541,7 @@
 		};
 		489C5652224DC1A100AA1318 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F189F18E4A2B6B8600488219 /* Pods-HFMDBModelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
